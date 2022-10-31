@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+html {
+    padding-bottom: 50px;
+}
+/* header section starts here */
+header {
+    text-align: center;
+    /* border: 3px solid black; */
+    padding: 45px;
+}
+header h2 {
+    padding-bottom: 30px;
+}
+.first-h2 {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.second-h2 {
+    font-size: 30px;
+
+}
+header .first-button {
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid gray;
+    /* margin-left: 40%; */
+
+    padding: 2px;
+    border-radius: 8px;
+
+     width: 30%;
+
+    background-color: gray;
+
+}
+h5 {
+    display: flex;
+    align-items: center;
+}
+ .first-h5 {
+    background-color: white;
+    border-radius: 10px;
+    /* height: 30px; */
+    padding: 7px 15px;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid white;
+}
+.first-h5:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.second-h5 {
+    cursor: pointer;
+    width: 50%;
+
+    justify-content: center;
+    display: flex;
+}
+/* header section ends here */
+/* section starts here */
+section {
+    width: 95%;
+    border: 3px solid black;
+    margin: 0 auto;
+    border-radius: 20px;
+    /* height: 700px; */
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.first-div {
+    /* border-right: 2px solid black; */
+    height: 90%;
+
+     margin: 0 auto;
+
+
+}
+.a, .b, .c {
+    border-right: 3px solid black;
+}
+.a, .d {
+    width: 27%;
+}
+.b, .c {
+    width: 23%;
+}
+ .a, .b, .c, .d {
+    /* border: 3px solid black; */
+    margin: 0 auto;
+    padding-left: 5%;
+    /* display: flex; */
+
+
+}
+.dollar {
+   display: flex;
+   align-items: center;
+   padding-bottom: 5px;
+}
+.dollar span {
+    font-size: 50px;
+}
+
+.a {
+    padding-left: 7%;
+}
+.a button {
+    margin-bottom: 50px;
+}
+
+section i {
+    font-size: 12px;
+    padding-right: 5px;
+
+    font-weight: bold;
+
+}
+.dummy-text {
+
+    display: flex;
+    /* border: 3px solid red; */
+    align-items: center;
+    /* padding-top: 50px; */
+}
+
+/* .dummy-text h6 {
+    padding-left: 7px;
+} */
+.first-div h6 {
+    padding: 10px 0;
+
+}
+.first-h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+.first-div button {
+    padding: 5px 20px;
+    color: white;
+     background-color: black;
+    cursor: pointer;
+    margin: 25px 0;
+
+}
+section .user  {
+    padding-top: 2px;
+}
+.first-div button:hover {
+    background-color: grey;
+    border: 3px solid grey;
+}
+.dumm {
+    padding-top: 48px;
+}
+
+/* section ends here */
