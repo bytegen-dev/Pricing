@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    height: 0;
+}
+
+body{
+    padding: 20px;
+    font-family: sans-serif;
+    border: 2px solid gold;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 50px; */
+}
+
+.heading{
+    /* border: 2px solid tomato; */
+    height: 300px;
+    /* min-height: 100px; */
+    /* padding: 20px; */
+    margin: 30px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+
+.title{
+    margin-bottom: 100px;
+}
+
+.title h2{
+    font-size: 40px;
+}
+
+.banner{
+    margin-bottom: 90px;
+}
+
+.banner h1{
+    font-size: 42px;
+    font-weight: lighter;
+    
+}
+
+.heading-buttons{
+    height:50px;
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    display: flex;
+    background: rgba(78, 78, 78, 0.2);
+    padding: 5px;
+    width: 400px;
+    align-items: center;
+}
+
+.heading-buttons button{
+    height: 40px;
+    width: 50%;
+    margin: 2px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn1{
+    color: black;
+    background: white;
+}
+
+.btn2{
+    color: black;
+    background: transparent;
+}
+
+
+
+
+
+.gbasgbos{
+    height: 800px;
+    margin: 10px;
+    /* border: 2px solid green; */
+    padding: 20px;
+}
+
+
+.packages-holder{
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    padding: 20px;
+}
+
+.package-holder{
+    width: 21%;
+    min-width: 250px;
+    height: 80%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 20px;
+    /* justify-content: stretch; */
+}
+
+.package-holder h1, p, .priceholder, .usage, .annualbilling, .downloadfile, .details-text-holder{
+    margin-bottom: 45px;
+}
+
+
+
+
