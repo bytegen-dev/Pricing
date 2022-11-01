@@ -72,19 +72,12 @@ body{
     color: black;
     background: transparent;
     transition: all 0.5s ease;
-    animation: coloir;
-    animation-duration: 1s;
-    animation-delay: 0.25s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease;
 }
 
-@keyframes coloir{
-    0% {background: transparent;}
-    100% {background: white;}
+.btn1 a{
+    text-decoration: none;
+    color: black;
 }
-
 
 /* .btn1:hover .btn2{
     
@@ -103,14 +96,24 @@ body{
 .btn2{
     color: black;
     background: transparent;
-
+    animation: coloir;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
     
 }
 
-.btn2 a{
+@keyframes coloir{
+    0% {background: transparent;}
+    100% {background: white;}
+}
+
+/* .btn2 a{
     text-decoration: none;
     color: black;
-}
+} */
 
 
 
@@ -121,7 +124,10 @@ body{
     margin: 10px;
     /* border: 2px solid green; */
     padding: 20px 35px;
+    display: none;
 }
+
+
 
 
 .packages-holder{
@@ -133,18 +139,6 @@ body{
     justify-content: center;
     height: 90%;
     padding: 20px;
-    opacity: 0;
-    animation: opacer;
-    animation-duration: 2s;
-    animation-delay: 0.25s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease;
-}
-
-@keyframes opacer{
-    0% {opacity: 0;}
-    100% {opacity: 1;}
 }
 
 .package-holder{
@@ -181,12 +175,6 @@ body{
     transform: translateY(-4px);
 }
 
-.download a{
-    text-decoration: none;
-    color: white;
-}
-
-
 .usage{
     margin-bottom:20px ;
 }
@@ -209,11 +197,7 @@ body{
     background: rgb(50, 50, 50);
     color: white;
     border: 2px solid transparent;
-    transition: width 0.5s ease;
-}
 
-.download:hover{
-    width: 220px;
 }
 
 .details-text-holder p i{
@@ -270,5 +254,27 @@ footer{
     font-weight: bolder;
     text-align: center;
     margin-bottom: 30px;
+}
+
+.purchases{
+    font-size: 30px;
+    /* font-weight: bolder; */
+    width: 100%;
+    height: 200px;
+    padding-top: 150px;
+    /* border: 2px solid tomato; */
+    text-align: center;
+    color: transparent;
+    animation: coloirr;
+    animation-duration: 2s;
+    animation-delay: 0.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes coloirr{
+    0% {color: transparent;}
+    100% {color: black;}
 }
 
