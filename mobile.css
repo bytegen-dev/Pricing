@@ -91,7 +91,7 @@
     }
 
     body{
-        height: 3300px;
+        height: 3200px;
         padding-bottom: 20px;
     }
 
@@ -289,6 +289,9 @@
         line-height: 50px;
     }
 
+    .mfree .mbilling{
+        color: transparent;
+    }
 
     /*  */
 
