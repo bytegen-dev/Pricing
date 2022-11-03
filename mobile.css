@@ -91,7 +91,7 @@
     }
 
     body{
-        height: 3200px;
+        height: 3300px;
         padding-bottom: 20px;
     }
 
@@ -272,7 +272,7 @@
     }
 
     .details-text-holder span{
-        /* line-height: 25px; */
+        line-height: 25px;
         font-size: 16px;
         margin-bottom: 20px;
     }
