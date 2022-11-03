@@ -270,10 +270,11 @@
         font-weight: bolder;
         line-height: 70px;
     }
-/* 
-    .details-text-holder{
-        line-height: 25px;
-    } */
+
+    .details-text-holder span{
+        /* line-height: 25px; */
+        font-size: 16px;
+    }
 
     .fa-dollar{
         font-size: 20px;
